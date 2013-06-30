@@ -465,7 +465,7 @@ In this case, just wrap the `mapping` method in a `settings` one, passing it the
                       "filter"       => ["stop", "url_ngram"],
                       "type"         => "custom" }
                  }
-               } do
+               }
         mapping { indexes :url, :type => 'string', :analyzer => "url_analyzer" }
       end
     end
